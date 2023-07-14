@@ -19,3 +19,29 @@
 .pessoa__imagem--andreia {
     background-image: url('../../img/pessoas/andreia.jpg');
 }
+
+@media screen and (min-width: 300) {
+    .pessoa__imagem {
+        background-position: center;
+        background-repeat: no-repeat ;
+        background-size: cover;
+        border-radius: 100%;
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+    }    
+    
+}
+
+@media screen and (min-width: 768px) {
+    .pessoa__imagem {
+        background-position: center;
+        background-repeat: no-repeat ;
+        background-size: cover;
+        border-radius: 100%;
+        width: 300px;
+        margin: 0 auto;
+        height: 300px;
+    }
+    
+}
