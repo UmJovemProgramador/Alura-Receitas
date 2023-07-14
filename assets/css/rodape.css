@@ -5,3 +5,26 @@
     padding: 1.5625rem 5rem;
     text-transform: lowercase;
 }
+
+@media screen and (min-width: 0) {
+    .rodape {
+        background: #bfbfbf;
+        color: #fbfbfb;
+        text-align: center;
+        padding: 1.5625rem 5rem;
+        text-transform: lowercase;
+    }
+ 
+    
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        background: #bfbfbf;
+        color: #fbfbfb;
+        text-align: right;
+        padding: 1.5625rem 5rem;
+        text-transform: lowercase;
+    }
+ 
+}
