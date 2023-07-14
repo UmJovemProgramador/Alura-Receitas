@@ -6,6 +6,12 @@
 @media screen and (min-width: 0) {
     .sobre__descricao {
         font-size: 1.3rem;
+        text-align: justify;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        text-align: center;
         
     }
     
